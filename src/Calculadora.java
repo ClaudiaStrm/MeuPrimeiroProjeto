@@ -8,7 +8,8 @@ public class Calculadora {
 	}
 	public void subtrair(){
 	}
-	public void multiplicar(){
+	public void multiplicar(int valorUm, int valorDois){
+		this.valor = this.valor + (valorUm*valorDois);
 	}
 	public void dividir(){
 	}
