@@ -10,7 +10,7 @@ public static void main(String[] args){
 	calculadora.somar(20,10);
 
 	
-	JOptionPane.showMessageDialog(null, calculadora.getValor());
+	JOptionPane.showMessageDialog(null, "O valor somado é: " +calculadora.getValor());
 }
 
 }
